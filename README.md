@@ -25,28 +25,28 @@ Do note that there are specific boards of the Radaxa Pi Zero which have differen
 # Index
 
 Namely: 
-    - 512MB RAM & 0GB EMMC storeage
-    - 1GB RAM & 0GB EMMC storeage
-    - 2GB RAM & 8GB EMMC storeage
-    - 4GB RAM & 32GB EMMC storeage
-    - 4GB RAM & 64GB EMMC storeage
-    - 4GB RAM & 128GB EMMC storeage
+- 512MB RAM & 0GB EMMC storeage
+- 1GB RAM & 0GB EMMC storeage
+- 2GB RAM & 8GB EMMC storeage
+- 4GB RAM & 32GB EMMC storeage
+- 4GB RAM & 64GB EMMC storeage
+- 4GB RAM & 128GB EMMC storeage
 
 I got the `4GB RAM & 32GB EMMC storeage` version
 
 Specs:
-    - Memory: 4GB LPDDR4, 64bit dual channel 3200Mb/s
-    - EMMC Storage: 32GB
-    - CPU: Amlogic S905Y2 64bit Quad core processor, Cortex-A53, 1.8GHz, 12nm
-    - GPU: Mali G31 MP2 GPU, supports OpenGL ES 1.1 /2.0 /3.1 /3.2, Vulkan 1.1, Open CL 1.1 1.2, 2.0 Full Profile
-    - Storage: eMMC 5.1 soldered high performance eMMC 5.1 with capacities of 8/16/32/64/128GB (depending on model)
-    - MicroSD card: microSD slot supports up to 128GB
-    - Video Decoding: HD codec H265/VP9 decode 4Kx2K@60
-    - Display Micro HDMI: HDMI 2.1, 4K@60 HDR
-    - Wifi/BT Antenna: Wifi/BT On Board
-    - WIFI4/BLE4 for 512MB and 1GB models
-    - WIFI5/BLE5 for 2GB and 4GB models
-    - Crypto Engine
-    - One button
-    - Size: 66 x 30 mm
-    - Power Requirement : 5V 1A USB C
+- Memory: 4GB LPDDR4, 64bit dual channel 3200Mb/s
+- EMMC Storage: 32GB
+- CPU: Amlogic S905Y2 64bit Quad core processor, Cortex-A53, 1.8GHz, 12nm
+- GPU: Mali G31 MP2 GPU, supports OpenGL ES 1.1 /2.0 /3.1 /3.2, Vulkan 1.1, Open CL 1.1 1.2, 2.0 Full Profile
+- Storage: eMMC 5.1 soldered high performance eMMC 5.1 with capacities of 8/16/32/64/128GB (depending on model)
+- MicroSD card: microSD slot supports up to 128GB
+- Video Decoding: HD codec H265/VP9 decode 4Kx2K@60
+- Display Micro HDMI: HDMI 2.1, 4K@60 HDR
+- Wifi/BT Antenna: Wifi/BT On Board
+- WIFI4/BLE4 for 512MB and 1GB models
+- WIFI5/BLE5 for 2GB and 4GB models
+- Crypto Engine
+- One button
+- Size: 66 x 30 mm
+- Power Requirement : 5V 1A USB C
