@@ -20,9 +20,13 @@ The max power consumption of Radxa Zero without USB peripheral is 3.3W.
 - For Radxa Zero model with 512MB or 1GB memory, it comes with AP6212 module.
 - For Radxa Zero model with 2GB or 4GB memory, it comes with AP6256 module.
 
-Do note that there are specific boards of the Radaxa Pi Zero which have different specs.
-
 # Index
+- Summary
+- Details
+
+# Details
+
+Do note that there are specific boards of the Radaxa Pi Zero which have different specs.
 
 Namely: 
 - 512MB RAM & 0GB EMMC storeage
