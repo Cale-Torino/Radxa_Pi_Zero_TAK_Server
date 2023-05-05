@@ -17,14 +17,17 @@ There is very low power consumption the SBC can run on 5v 1A chargers with cable
 
 The max power consumption of Radxa Zero without USB peripheral is 3.3W.
 
+With it's low price point (at least here in South Africa) and powerful specs I'd say it's a suitable replacement/competitor to the Raspberry Pi 4 boards.
+
 - For Radxa Zero model with 512MB or 1GB memory, it comes with AP6212 module.
 - For Radxa Zero model with 2GB or 4GB memory, it comes with AP6256 module.
 
 # Index
 - Summary
-- Details
+- SBC Specs
+- Project
 
-# Details
+# SBC Specs
 
 Do note that there are specific boards of the Radaxa Pi Zero which have different specs.
 
@@ -54,3 +57,15 @@ Specs:
 - One button
 - Size: 66 x 30 mm
 - Power Requirement : 5V 1A USB C
+
+# Project
+
+Leverange the low power but powerful RAM and CPU specs of the Radxa Pi Zero in order to run TAK server for small to medium traffic.
+
+This project needs to always remain affardable (like the old Raspberry Pi boards).
+
+Try get the most specs for the lowest price point where the server will run reliably.
+
+4GB memory should be enough but will keep an eye out for 8GB versions at an affordable price.
+
+
