@@ -58,7 +58,7 @@ Specs:
 - Size: 66 x 30 mm
 - Power Requirement : 5V 1A USB C
 
-# Project
+# Project Summary
 
 Leverange the low power but powerful RAM and CPU specs of the Radxa Pi Zero in order to run TAK server for small to medium traffic.
 
@@ -68,4 +68,95 @@ Try get the most specs for the lowest price point where the server will run reli
 
 4GB memory should be enough but will keep an eye out for 8GB versions at an affordable price.
 
+# Steps To Setup RADXA PI Zero Ubuntu Focal Server
 
+1. 
+[<img src="img/IMG_1648.JPG" width="500"/>](img/IMG_1648.JPG)
+
+Hold this button, then plug Zero into your computer. You can let go the button when you see power LED is on.
+
+Open `zadig-2.8.exe` and plug the device into your PC.
+
+Choose Driver `GX-CHIP` => `libusb-win32 (v1.2.7.3)`.
+
+USB ID `1B8E` `C003`.
+
+and click Install Driver.
+
+2. 
+Install the the Android driver `.inf` file.
+
+usb_driver_r13-windows
+
+3. 
+Run `RZ_USB_Boot_Helper_V1.0.0`.
+
+Select `rz-udisk-loader.bin` and run it.
+
+If your pc does not see the drive run the `radxa-zero-erase-emmc.bin`.
+
+Then run  `rz-udisk-loader.bin` again.
+
+4. 
+[balena-etcher](https://www.balena.io/etcher)
+
+[radxa-zero-ubuntu-focal-server](https://github.com/radxa-build/radxa-zero/releases/tag/20220801-0213)
+
+
+extract `radxa-zero-ubuntu-focal-server-arm64-20220801-0346-mbr.img.img.xz`
+
+to
+
+`radxa-zero-ubuntu-focal-server-arm64-20220801-0346-mbr.img`
+
+Open balena etcher and select the `.img` file and correct drive
+
+wait for it to finish then unplug.
+
+5. 
+Connect usb-c, keyboard and hdmi and power on.
+
+# Details 
+```
+User Name : rock
+Password  : rock
+```
+
+# Setup WIFI Connection
+
+Switch to super user mode
+```
+$ sudo su
+```
+Open the WIFI
+```
+$ nmcli r wifi on
+```
+Scan WIFI
+```
+$ nmcli dev wifi
+```
+Connect to WIFI network
+```
+$ nmcli dev wifi connect "wifi_name" password "wifi_password"
+```
+
+# Update Necessary Packages
+```
+$ sudo apt-get update
+```
+
+# Login SSH
+
+find ip on network
+
+```
+$ ping ip-of-device
+$ ssh rock@ip-of-device
+```
+
+# Check Resorces
+
+```
+$ htop
+```
