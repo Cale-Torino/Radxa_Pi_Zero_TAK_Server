@@ -22,6 +22,12 @@ With it's low price point (at least here in South Africa) and powerful specs I'd
 - For Radxa Zero model with 512MB or 1GB memory, it comes with AP6212 module.
 - For Radxa Zero model with 2GB or 4GB memory, it comes with AP6256 module.
 
+Default username:  rocky
+Default password:  rockylinux
+
+Default username:  rock
+Default password:  rock
+
 # Index
 - Summary
 - SBC Specs
