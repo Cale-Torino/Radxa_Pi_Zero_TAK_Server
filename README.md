@@ -62,7 +62,7 @@ Specs:
 
 Leverange the low power but powerful RAM and CPU specs of the Radxa Pi Zero in order to run TAK server for small to medium traffic.
 
-This project needs to always remain affardable (like the old Raspberry Pi boards).
+This project needs to always remain affordable (like the old Raspberry Pi boards).
 
 Try get the most specs for the lowest price point where the server will run reliably.
 
@@ -160,3 +160,10 @@ $ ssh rock@ip-of-device
 ```
 $ htop
 ```
+
+# Check ARM Version
+```
+$ uname -m
+```
+aarch64 == ARMv8
+
